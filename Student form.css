@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-image: linear-gradient(to right, green, yellow);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 6px;
+}
+
+@media screen and (max-width:567px) {
+    .container {
+        height: 130vh;
+    }
+}
+
+.form-cont {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    width: 48vw;
+    height: 55vh;
+}
+
+@media screen and (max-width:567px) {
+    .form-cont {
+        width: 42vw;
+        height: 105vh;
+    }
+}
+
+.label {
+    font-size: 14px;
+    color: red;
+}
+
+
+
+.hr-line {
+    background-color: brown;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.para-name {
+    font-size: 10px;
+}
+
+@media screen and (min-width:567px) {
+    .para-name {
+        font-size: 15px;
+    }
+}
+
+.img {
+    width: 120px;
+    height: 66px;
+    margin: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width:567px) {
+    .img {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+.list-item {
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 38vw;
+    height: 30vh;
+    padding: 4px;
+    margin: 2px;
+
+}
+
+@media screen and (max-width:567px) {
+    .list-item {
+        width: 38vw;
+        height: 42vh;
+        padding: 2px;
+    }
+}

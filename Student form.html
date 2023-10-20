@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="d-flex flex-row justify-content-center col-12">
+                <div class="d-flex flex-column">
+                    <h1 class="title text-center">Registration Form</h1>
+
+                    <form id="formContainer" class="form-cont d-flex flex-column shadow mt-5">
+                        <div class="sub-cont mb-1">
+                            <label class="label" for="photo">Passphoto : </label>
+                            <input type="file" id="photo" class="form-control" />
+                        </div>
+
+                        <div class="sub-cont mb-1">
+                            <label class="label" for="name">Full Name : </label>
+                            <input type="text" id="name" placeholder="Enter your name" class="form-control" />
+                        </div>
+                        <div class="sub-cont mb-1">
+                            <label class="label" for="email">E-mail : </label>
+                            <input type="text" id="email" placeholder="Enter your email" class="form-control" />
+                        </div>
+                        <div class="sub-cont mb-1">
+                            <label class="label" for="phone">Phone : </label>
+                            <input type="text" id="phone" placeholder="Enter your number" class="form-control" />
+                        </div>
+                        <div class="sub-cont mb-1">
+                            <label for="gender" class="label">Gender : </label>
+                            <input type="text" id="gender" placeholder="Enter your gender" class="form-control" />
+                        </div>
+                        <div class="sub-cont mb-1">
+                            <label class="label" for="skills">Skills : </label>
+                            <input id="skills" type="text" placeholder="Enter your skills" class="form-control">
+                        </div>
+                        <div class="p-2 d-flex flex-row justify-content-center">
+                            <input class="btn btn-primary" type="submit" value="Enroll">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-start">
+                    <h1 class="title text-center">Enrolled Form</h1>
+                    <ul class="list" id="listFormContainer"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
